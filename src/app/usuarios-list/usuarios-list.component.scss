@@ -1,0 +1,33 @@
+.container{
+    border: 2px solid indigo;
+    margin: 20px;
+    padding: 20px;
+
+    table{
+        border: 1px solid grey;
+        border-collapse: collapse;
+        width: 100%;
+
+
+            thead{
+                border-bottom: 1px solid gray;
+                margin-right: 30px;
+            }
+
+            tr{
+                &:hover{
+                    background-color: beige;
+                    // para que salga la manita pa clickar
+                    cursor: pointer;
+                }
+            }
+            th{
+                text-align: left;
+                padding-left: 10px;
+            }
+
+            td{
+                padding-left: 10px;
+            }
+    }
+}
